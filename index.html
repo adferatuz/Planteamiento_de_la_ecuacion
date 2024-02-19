@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Resolviendo problemas geometricos</title>
+</head>
+<body>
+
+    
+    <header>
+        <h1 class="titulo-principal">Area de figuras Geometricas</h1>
+        
+    </header>
+    <main>
+        
+        <h2 class="titulo-secundario">
+            Menú Principal
+        </h2>
+        
+        <div class="menu">
+            <ul class="lista-menu">
+                <li id="triangulo" onclick="MostrarElementos('triangulo')">Hallar el area de un triangulo</li>
+                <li id="cuadrado" onclick="MostrarElementos('cuadrado')">Hallar el area de un cuadrado o rectangulo</li>
+                <li id="rombo" onclick="MostrarElementos('rombo')">Hallar el area de un rombo</li>
+                <li id="paralelogramo" onclick="MostrarElementos('paralelogramo')">Hallar el area de un paralelogramo </li>
+                <li id="trapecio" onclick="MostrarElementos('trapecio')">Hallar el area de un trapecio</li>
+                <li id="poligonoregular" onclick="MostrarElementos('poligonoregular')">Hallar el area de un poligono regular</li>
+            </ul>
+            
+        </div>           
+        
+
+        <div class="grupo-cajas-texto oculto" id="contenidodinamico">
+            
+        </div>
+        
+        
+        <div id="miModal" class="modal">
+            <div  id="modalContenido" >
+              </div>
+
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
