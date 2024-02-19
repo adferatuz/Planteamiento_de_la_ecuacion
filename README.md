@@ -1,0 +1,2 @@
+# Planteamiento_de_la_ecuacion
+resolviendo areas geometricas
